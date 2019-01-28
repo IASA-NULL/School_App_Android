@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.library.Fragment_Library">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+            android:id="@+id/autoviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="230dp">
+
+        </cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager>
+
+        <TextView
+            android:id="@+id/library_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <GridView
+            android:id="@+id/gridViewImages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:verticalSpacing="10dp">
+
+        </GridView>
+
+        <GridView
+            android:id="@+id/gridViewImages2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:verticalSpacing="10dp">
+
+        </GridView>
+
+        <GridView
+            android:id="@+id/gridViewImages3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:verticalSpacing="10dp">
+
+        </GridView>
+
+        <GridView
+            android:id="@+id/gridViewImages4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:verticalSpacing="10dp">
+
+        </GridView>
+    </LinearLayout>
+</ScrollView>

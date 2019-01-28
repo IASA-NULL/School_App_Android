@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_school"
+        android:checked="true"
+        android:icon="@drawable/bottom_navigation_school_selector"
+        android:title="School"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_library"
+        android:checked="false"
+        android:icon="@drawable/bottom_navigation_library_selector"
+        android:title="Library"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_community"
+        android:checked="false"
+        android:icon="@drawable/bottom_navigation_community_selector"
+        android:title="Community"
+        app:showAsAction="ifRoom"/>
+
+</menu>
